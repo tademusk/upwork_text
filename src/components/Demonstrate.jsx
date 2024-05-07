@@ -6,7 +6,7 @@ const Demonstrate = () => {
   return (
     <motion.div className='px-8 py-4 gap-24 flex items-center justify-center'>
        <motion.div
-        whileInView={{ translateX: 0, opacity: 1}}
+        animate={{ translateX: 0, opacity: 1}}
         initial={{ translateX: -500, opacity: 0 }}
         transition={{ duration: 0.7, delay: 1 }} 
        className="w-[50%] flex flex-col gap-10">
@@ -36,7 +36,7 @@ const Demonstrate = () => {
        </motion.div>
        <motion.div
         initial={{ translateX: 500, opacity: 0 }}
-        whileInView={{ translateX: 0, opacity: 1 }}
+        animate={{ translateX: 0, opacity: 1 }}
         transition={{ duration: 0.7, delay: 0.3 }} 
         className="w-[50%] pt-8">
           <img src={delivery} className='w-full' alt="" />

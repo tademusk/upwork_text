@@ -4,6 +4,7 @@ import styles from './style'
 import Marque from "./components/Marque"
 import React, { useEffect, useState } from "react"
 import Demonstrate from "./components/Demonstrate"
+import CreamSection from "./components/CreamSection"
 
 export default function App() {
 
@@ -54,7 +55,12 @@ export default function App() {
          </section>
          <section className={` ${styles.flexCenter}  `}>
              <div className={` ${styles.boxWidth} ${styles.paddingNav} pt-16 `}>
-              <Marque />
+                <CreamSection />
+             </div>   
+         </section>
+         <section className={` ${styles.flexCenter}  `}>
+             <div className={` ${styles.boxWidth} ${styles.paddingNav} pt-16 `}>
+                <Marque />
              </div>   
          </section>
         </div>

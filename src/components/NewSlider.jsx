@@ -44,14 +44,10 @@ const NewSlider = () => {
                        className='rounded-[8px] object-fill top-[5%] left-[30%]'
                        initial='center'
 
-                    //    initial = "{{ opacity: .6}}"
-                    //    whileInView={{ opacity: 1}}
-
                        transition={{duration: 0.7}}
                        animate={positions[positionindexs[index]]}
                        variants={imageVariants}
                        
-                    //    transition={{ duration: 0.8}}
                        style={{ width: '40%', position: 'absolute',  transform: 'rotate(90deg)' }}
                       />
 

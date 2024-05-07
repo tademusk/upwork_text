@@ -46,6 +46,11 @@ export default function App() {
                <Marque />
              </div>   
          </section>
+         <section className={` ${styles.flexCenter} ${styles.paddingNav} `}>
+             <div className={` ${styles.boxWidth} py-5 `}>
+               {/* <Marque /> */}
+             </div>   
+         </section>
         </div>
       )
     }

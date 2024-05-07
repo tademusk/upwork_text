@@ -4,6 +4,7 @@ import bakery3 from './bakery3.png'
 import bakery4 from './bakery4.png'
 import bakery5 from './bakery5.png'
 import firstSvg from './firstSvg.svg'
+import delivery from './delivery.png'
 
 
 export {
@@ -12,5 +13,6 @@ export {
         bakery3,
         bakery4,
         bakery5,
-        firstSvg
+        firstSvg,
+        delivery,
    }

@@ -3,6 +3,7 @@ import Banner from "./components/Banner"
 import styles from './style'
 import Marque from "./components/Marque"
 import React, { useEffect, useState } from "react"
+import Demonstrate from "./components/Demonstrate"
 
 export default function App() {
 
@@ -42,13 +43,18 @@ export default function App() {
              </div>   
          </section>
          <section className={` ${styles.flexCenter} ${styles.paddingNav} `}>
-             <div className={` ${styles.boxWidth} py-5 `}>
+             <div className={` ${styles.boxWidth} pt-5 pb-20 `}>
                <Marque />
              </div>   
          </section>
-         <section className={` ${styles.flexCenter} ${styles.paddingNav} `}>
-             <div className={` ${styles.boxWidth} py-5 `}>
-               {/* <Marque /> */}
+         <section className={` ${styles.flexCenter}  relative bgDemonstarte `}>
+             <div className={` ${styles.boxWidth} ${styles.paddingNav} py-5 `}>
+               <Demonstrate />
+             </div>   
+         </section>
+         <section className={` ${styles.flexCenter}  `}>
+             <div className={` ${styles.boxWidth} ${styles.paddingNav} pt-16 `}>
+              <Marque />
              </div>   
          </section>
         </div>

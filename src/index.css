@@ -113,3 +113,17 @@
   background: #362cfe;
   border-radius: 50%;
 }
+
+
+.bgDemonstarte::after {
+      content: '';
+      background-image: url('./assets/firstSvg.svg');
+      background-repeat: no-repeat;
+      position: absolute;
+      right: -10px;
+      top: 0;
+      width: 1023px;
+      height: 1112px;
+      z-index: -1;
+    
+}
